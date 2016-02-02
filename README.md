@@ -2,13 +2,13 @@
 Some example code for big number calculation
 
 # Implementation
-Use std:string to store large numbers, and supply +,-,*,/,% operation;
+Use std:string to store large numbers, and supply +,-,*,/,% operations;
 
 # How to use
-Download:
+1. Download:
     git clone xxx
-Compile:
+2. Compile:
     make
-Run:
+3. Run:
     ./test
 
