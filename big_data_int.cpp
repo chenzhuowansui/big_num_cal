@@ -43,7 +43,7 @@ big_data_int operator *(const big_data_int &a, const big_data_int &b) {
     //Add the terminal symbol for char*
     s = s.length()? s + string("\0") : string("0\0");
 
-    delete mid;
+    delete[] mid;
 
     return big_data_int(s);
 }
@@ -137,7 +137,7 @@ big_data_int operator -(const big_data_int &a, const big_data_int &b) {
     //Add the terminal symbol for char*
     s = s.length()? s + string("\0") : string("0\0");
 
-    delete mid;
+    delete[] mid;
 
     return big_data_int(s);
 
@@ -195,7 +195,7 @@ big_data_int operator +(const big_data_int &a, const big_data_int &b) {
     //Add the terminal symbol for char*
     s = s.length()? s + string("\0") : string("0\0");
 
-    delete mid;
+    delete[] mid;
 
     return big_data_int(s);
 }
