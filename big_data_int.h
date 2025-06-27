@@ -1,5 +1,4 @@
 #include <string>
-#include <string.h>
 using namespace std;
 
 class big_data_int {
@@ -56,4 +55,3 @@ big_data_int  operator *(const big_data_int &, const big_data_int &);
 big_data_int  operator /(const big_data_int &, const big_data_int &);
 big_data_int  operator -(const big_data_int &, const big_data_int &);
 big_data_int  operator +(const big_data_int &, const big_data_int &);
-
