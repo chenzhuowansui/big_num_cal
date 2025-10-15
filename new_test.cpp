@@ -1,6 +1,7 @@
 #include <cstring>
 
 #include "big_data_int.h"
+#include "utils.hpp"
 
 int main() {
   cout << "please input two numbers:" << endl;
@@ -38,6 +39,9 @@ int main() {
       cout << "Wrong operator input" << endl;
       return -1;
   }
+
+  int i;
+  int j = i / return_value(i);
 
   cout << "Result is:" << endl << c.data() << endl;
 
